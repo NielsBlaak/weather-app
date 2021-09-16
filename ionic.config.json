@@ -1,0 +1,7 @@
+{
+    "name": "Rotterdams weer",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+}

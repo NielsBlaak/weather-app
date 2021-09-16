@@ -1,0 +1,16 @@
+{
+	"appId": "niels.rotterdamsweer",
+	"appName": "Rotterdams weer",
+	"bundledWebRuntime": true,
+	"npmClient": "npm",
+	"webDir": "build",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 1000,
+			"backgroundColor": "#ffffffff",
+			"androidSplashResourceName": "splash",
+			"launchAutoHide": true,
+			"androidScaleType": "CENTER_CROP"
+		}
+	}
+}

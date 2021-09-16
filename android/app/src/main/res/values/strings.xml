@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Rotterdams weer</string>
+    <string name="title_activity_main">Rotterdams weer</string>
+    <string name="package_name">niels.rotterdamsweer</string>
+    <string name="custom_url_scheme">niels.rotterdamsweer</string>
+</resources>
