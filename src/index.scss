@@ -1,0 +1,82 @@
+/* ./src/index.css */
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@supports(padding: max(0px)) {
+	html {
+		padding-top: env(safe-area-inset-top);
+		padding-bottom: env(safe-area-inset-bottom);
+	}
+}
+
+.icon {
+	color: #00811f;
+}
+.weather {
+    text-align: center;
+    margin-top: 80px;
+    .icon {
+      	font-size: 70px;
+    }
+    p {
+      	font-size: 28px;
+    }
+}
+
+.week-button {
+	background-color: #00811f;
+	padding: 15px;
+	border-radius: 6px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.forecast {
+    .forecast-details {
+		display: flex;
+		padding: 5px;
+		border-bottom: #D3D3D3 1px solid;
+		.icon {
+			align-self: center;
+			font-size: 32px;
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+	.forecast-date {
+		align-self: center;
+		width: 140px;
+    	text-align: center;
+	}
+    .forecast-forecast {
+	   text-align: center;
+	   margin-right: auto;
+	   margin-left: auto;
+	   width: 150px;
+    }
+}
+
+.header {
+	display: flex;
+    align-items: center;
+	height: 65px;
+	font-size: 32px;
+	font-weight: bold;
+	justify-content: space-around;
+	background-color: #00811f;
+	img {
+		height: 40px;
+		width: 40px;
+		margin: 5px;
+	}
+}
